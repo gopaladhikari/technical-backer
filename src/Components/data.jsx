@@ -1,22 +1,22 @@
 export const navLinks = [
   {
     id: 1,
-    url: "/",
+    url: "/technical-backer-vite/",
     text: "Home",
   },
   {
     id: 2,
-    url: "/about",
+    url: "/technical-backer-vite/about",
     text: "About Us",
   },
   {
     id: 3,
-    url: "/services",
+    url: "/technical-backer-vite/services",
     text: "Services",
   },
   {
     id: 4,
-    url: "/contact",
+    url: "/technical-backer-vite/contact",
     text: "Contact",
   },
 ];
