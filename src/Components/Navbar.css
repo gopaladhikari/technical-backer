@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.nav-link {
+  font-family: "Catamaran", sans-serif;
+  color: #212529 !important;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #2ecc71 !important;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon:focus,
+.navbar-toggler-icon:active {
+  outline: none !important;
+  border: none;
+  box-shadow: none !important;
+}
+
+.logo {
+  width: 90px;
+  height: 45px;
+  object-fit: cover;
+}
