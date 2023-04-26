@@ -1,7 +1,7 @@
 export const navLinks = [
   {
     id: 1,
-    url: "/technical-backer-vite",
+    url: "/technical-backer-vite/",
     text: "Home",
   },
   {
