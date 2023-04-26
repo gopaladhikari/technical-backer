@@ -1,7 +1,8 @@
 import React from "react";
+import ServiceItem from "./ServiceItem";
 
 function Services() {
-  return <div>Services</div>;
+  return <section>{<ServiceItem />}</section>;
 }
 
 export default Services;
