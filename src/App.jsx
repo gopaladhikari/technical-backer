@@ -14,7 +14,7 @@ function App() {
       <TitleAndScrollRestoration />
       <Navbar />
       <Routes>
-        <Route path="/technical-backer-vite" element={<Home />} />
+        <Route path="/technical-backer-vite/" element={<Home />} />
         <Route path="/technical-backer-vite/services" element={<Services />} />
         <Route path="/technical-backer-vite/contact" element={<GetInTouch />} />
         <Route path="/technical-backer-vite/about" element={<About />} />
