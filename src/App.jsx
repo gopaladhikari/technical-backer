@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home/Home";
-import Services from "./Components/Services";
+import Services from "./Components/Services/Services";
 import GetInTouch from "./Components/GetInTouch";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
