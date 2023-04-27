@@ -91,6 +91,7 @@ export const servicesData = [
     id: 1,
     heading: "Web Design & Development",
     title: "The Best Web Development in India",
+    img: "./service-img-1.svg",
     description:
       "Technical Backers here to offer you our exceptional web development services. As an experienced software company, we understand the importance of having a strong online presence and we strive to deliver websites that are visually appealing, user-friendly, and optimized for performance. Web development will make your site look great, work fast and perform well with a seamless experience. With seamless UI, attractive design, and functionality built to target your audience, our experts at Technical Backers will fulfill your every website needs",
 
@@ -118,6 +119,7 @@ export const servicesData = [
     id: 2,
     heading: "Android & IOS Development",
     title: "The Best App Development in India",
+    img: "./service-img-1.svg",
     description:
       "This is the era of smart devices and as such you must have a mobile app to stay on top of your competition. At Technical Backers we analyze your needs and develop the perfect Mobile application tailored made for your needs. Regardless of what your needs for the mobile app are, be it financial, educational, or information, with our team of expert developers, you will get the perfect mobile application to ensure that your users get the best experience with your business/organization.s",
 
@@ -145,6 +147,7 @@ export const servicesData = [
     id: 3,
     heading: "SEO",
     title: "The Best Web Development in India ",
+    img: "./service-img-3.png",
     description:
       "Search Engine Optimization (SEO) is the process of refining the quality and quantity of website traffic to a web page from search engines. The SEO concept requires keywords to make it possible for people to find your site. A well-optimized website through SEO speaks the same language as its possible visitor base with keywords. This SEO technique eventually helps connect searchers to your site. The overall SEO process includes knowing keywords, writing high-quality content, additional keyword placement, and review of every page. It is said that “only a hungry person searches for food”. Therefore, if you need brand recognition, your website needs to be visible to a large audience through SEO. Search Engine Optimization (SEO) requires systematic procedure and lots of groundwork that doesn’t happen overnight. We hope that our clients will co-operate with us in every process of SEO. Our team offers you SEO services at a sensible price range.",
 
@@ -172,6 +175,7 @@ export const servicesData = [
     id: 4,
     heading: "IT Consultant",
     title: "The Best It Consultant in India",
+    img: "./service-img-4.svg",
     description:
       "IT consultants offer a range of services and expertise to organizations that require technical support, guidance, and advice on how to leverage technology to achieve their business goals. Some of the things IT consultants can offer are Staff training, IT project management, Strategic planning,System Design etc.Overall, IT consultants offer a wide range of services that help organizations to leverage technology effectively, optimize their operations, and achieve their business objectives.",
 
@@ -194,5 +198,66 @@ export const servicesData = [
     featureImg4: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
     featureParagraph4:
       "We offer system design to organizations to develop and implement new technology systems, such as enterprise resource planning (ERP) systems, customer relationship management (CRM) systems, or cloud-based solutions.",
+  },
+];
+
+export const companyLinks = [
+  {
+    id: 2,
+    text: "About Us",
+  },
+  {
+    id: 3,
+    text: "What We Do",
+  },
+  {
+    id: 4,
+    text: "Contact Us",
+  },
+];
+
+export const serviceLinks = [
+  {
+    id: 1,
+    text: "Web Design",
+  },
+  {
+    id: 2,
+    text: "Web Development",
+  },
+  {
+    id: 3,
+    text: "Android Development",
+  },
+  {
+    id: 4,
+    text: "IOS Development",
+  },
+  {
+    id: 5,
+    text: "SEO",
+  },
+  {
+    id: 6,
+    text: "IT Consultant",
+  },
+];
+
+export const connectWithUsLinks = [
+  {
+    id: 1,
+    text: "Facebook",
+  },
+  {
+    id: 2,
+    text: "Twitter",
+  },
+  {
+    id: 3,
+    text: "Instagram",
+  },
+  {
+    id: 4,
+    text: "LinkedIn",
   },
 ];

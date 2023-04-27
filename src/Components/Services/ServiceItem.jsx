@@ -5,6 +5,7 @@ function ServiceItem({
   id,
   heading,
   title,
+  img,
   description,
   featureHeading1,
   featureImg1,
@@ -37,7 +38,7 @@ function ServiceItem({
           </Link>
         </div>
         <div className="col-md-6">
-          <img src="url" className="img-fluid service-img" alt="coming soon" />
+          <img src={img} className="img-fluid service-img" alt="coming soon" />
         </div>
         <div className="col-12 mb-4 mt-5">
           <h2 className="text-center o">Features</h2>
@@ -79,7 +80,7 @@ function ServiceItem({
           <h1 className="text-center">{heading}</h1>
         </div>
         <div className="col-md-6">
-          <img src="url" className="img-fluid service-img" alt="coming soon" />
+          <img src={img} className="img-fluid service-img" alt="coming soon" />
         </div>
         <div className="col-md-6">
           <h2 className="my-3"> {title} </h2>

@@ -1,0 +1,47 @@
+.newsletter-input {
+  background-color: #32363a !important;
+  outline: none !important;
+  border: none !important;
+}
+.newsletter-input:active,
+.newsletter-input:focus {
+  color: white;
+  outline: none !important;
+  border: none !important;
+}
+
+.newsletter-input::placeholder {
+  color: white !important;
+}
+
+.list-group {
+  background-color: transparent;
+}
+
+.list-group-item {
+  text-align: start;
+  background-color: transparent;
+  color: #8d8f91;
+  cursor: pointer;
+  border: none !important;
+  transition: all 400ms ease;
+  text-decoration: none;
+}
+
+.list-group-item:hover {
+  color: white;
+}
+
+.list-group-item a {
+  text-decoration: none !important;
+  color: #8d8f91;
+  transition: all 400ms ease;
+}
+
+.list-group-item a:hover {
+  color: white;
+}
+
+.error {
+  color: red;
+}
