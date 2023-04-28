@@ -16,7 +16,7 @@ function HomeCard({ id, img, title, text }) {
         <div className="card-body">
           <h5>{window.innerWidth < 576 ? smTitle : title}</h5>
           <p>{text.length > 119 ? text.slice(0, 118) + " ..." : text}</p>
-          <Link to="/technical-backer-vite/services" className="read-more-btn">
+          <Link to="/services" className="read-more-btn">
             Read More <BsArrowRight />{" "}
           </Link>
         </div>

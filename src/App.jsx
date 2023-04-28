@@ -28,11 +28,11 @@ function App() {
       <Navbar />
       <Alert alert={alert} />
       <Routes>
-        <Route path="/technical-backer-vite/" element={<Home />} />
-        <Route path="/technical-backer-vite/about" element={<About />} />
-        <Route path="/technical-backer-vite/services" element={<Services />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
         <Route
-          path="/technical-backer-vite/contact"
+          path="/contact"
           element={<Contact alert={alert} showAlert={showAlert} />}
         />
       </Routes>
