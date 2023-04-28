@@ -44,15 +44,15 @@ function Getintouch({ showAlert }) {
             message,
           })
           .then((response) => {
-            showAlert("Form has been submitted successfully.");
-            console.log(response.data);
+            showAlert("Form has been submitted successfully", 1);
           })
           .catch((error) => {
-            console.log(error);
+            showAlert("Form submit failed. Please try again.", 2);
           });
         action.resetForm();
       },
     });
+
   return (
     <>
       <section className="py-5">
