@@ -5,22 +5,22 @@ import { SiGooglecolab } from "react-icons/si";
 export const navLinks = [
   {
     id: 1,
-    url: "/technical-backer-vite/",
+    url: "/",
     text: "Home",
   },
   {
     id: 2,
-    url: "/technical-backer-vite/about",
+    url: "/about",
     text: "About Us",
   },
   {
     id: 3,
-    url: "/technical-backer-vite/services",
+    url: "/services",
     text: "Services",
   },
   {
     id: 4,
-    url: "/technical-backer-vite/contact",
+    url: "/contact",
     text: "Contact",
   },
 ];
