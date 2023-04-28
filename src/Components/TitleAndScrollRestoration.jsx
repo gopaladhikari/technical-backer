@@ -5,11 +5,11 @@ function TitleAndScrollRestoration() {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scroll(0, 0);
-    pathname === "/technical-backer-vite/"
+    pathname === "/"
       ? (document.title = "Home | Technical Backers")
       : (document.title =
-          pathname.charAt(23).toUpperCase() +
-          pathname.slice(24) +
+          pathname.charAt(1).toUpperCase() +
+          pathname.slice(2) +
           " | Technical Backers");
   }, [pathname]);
   return null;
