@@ -5,17 +5,17 @@ import { SiGooglecolab } from "react-icons/si";
 export const navLinks = [
   {
     id: 1,
-    url: "/",
+    url: "/technical-backer/",
     text: "Home",
   },
   {
     id: 2,
-    url: "/about",
+    url: "/technical-backer/about",
     text: "About Us",
   },
   {
     id: 3,
-    url: "/services",
+    url: "/technical-backer/services",
     text: "Services",
   },
   {
@@ -29,7 +29,7 @@ export const HomeServicesData = [
   {
     id: 1,
     title: "Web Development",
-    img: "./digital-marketing.svg",
+    img: "./technical-backer/digital-marketing.svg",
     text: "Web Development is one of the growing sectors and Technical Backers is one of the best Web developing Company. At Technical Backers, we provide you with the best-tailored wesites to enhance your online presence and get better leads. this is done through careful analysis of your needs, careful and efficient use of tools.",
   },
   {

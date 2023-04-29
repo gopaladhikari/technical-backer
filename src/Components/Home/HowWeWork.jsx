@@ -14,7 +14,7 @@ function HowWeWork({ title, text, icon }) {
           <h5 className="card-title my-4">{title} </h5>
           <p> {text} </p>
           <Link
-            to="/services"
+            to="./technical-backer/services"
             className="btn btn-success my-4"
           >
             Get Started <BsArrowRight />{" "}

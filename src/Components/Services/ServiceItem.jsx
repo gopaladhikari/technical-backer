@@ -31,7 +31,7 @@ function ServiceItem({
           <h2 className="my-3"> {title} </h2>
           <p> {description} </p>
           <Link
-            to="/technical-backer-vite/contact"
+            to="/technical-backer/contact"
             className="btn btn-success mt-3 mt-lg-5"
           >
             Quick Enquiry
@@ -86,7 +86,7 @@ function ServiceItem({
           <h2 className="my-3"> {title} </h2>
           <p> {description} </p>
           <Link
-            to="/technical-backer-vite/contact"
+            to="/technical-backer/contact"
             className="btn btn-success mt-3 mt-lg-5"
           >
             Quick Enquiry
