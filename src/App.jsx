@@ -29,10 +29,10 @@ function App() {
       <Alert alert={alert} />
       <Routes>
         <Route path="/technical-backer/" element={<Home />} />
-        <Route path="./technical-backer/about" element={<About />} />
-        <Route path="./technical-backer/services" element={<Services />} />
+        <Route path="/technical-backer/about" element={<About />} />
+        <Route path="/technical-backer/services" element={<Services />} />
         <Route
-          path="./technical-backer/contact"
+          path="/technical-backer/contact"
           element={<Contact alert={alert} showAlert={showAlert} />}
         />
       </Routes>
