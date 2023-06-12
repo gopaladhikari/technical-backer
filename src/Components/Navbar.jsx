@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light flex-column  align-items-center">
       <div className="container">
-        <Link className="navbar-brand" to="/technical-backer/">
+        <Link className="navbar-brand" to="/">
           <img src="./logo.png" className="logo" alt="logo" />
         </Link>
         <button

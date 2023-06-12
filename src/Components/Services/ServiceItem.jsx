@@ -30,10 +30,7 @@ function ServiceItem({
         <div className="col-md-6">
           <h2 className="my-3"> {title} </h2>
           <p> {description} </p>
-          <Link
-            to="/technical-backer/contact"
-            className="btn btn-success mt-3 mt-lg-5"
-          >
+          <Link to="/contact" className="btn btn-success mt-3 mt-lg-5">
             Quick Enquiry
           </Link>
         </div>
@@ -85,11 +82,8 @@ function ServiceItem({
         <div className="col-md-6">
           <h2 className="my-3"> {title} </h2>
           <p> {description} </p>
-          <Link
-            to="/technical-backer/contact"
-            className="btn btn-success mt-3 mt-lg-5"
-          >
-            Quick Enquiry
+          <Link to="/contact" className="btn btn-success mt-3 mt-lg-5">
+            <a> Quick Enquiry</a>
           </Link>
         </div>
 

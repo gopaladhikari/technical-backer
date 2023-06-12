@@ -13,10 +13,7 @@ function HowWeWork({ title, text, icon }) {
         <div className="card-body ">
           <h5 className="card-title my-4">{title} </h5>
           <p> {text} </p>
-          <Link
-            to="./technical-backer/services"
-            className="btn btn-success my-4"
-          >
+          <Link to="./services" className="btn btn-success my-4">
             Get Started <BsArrowRight />{" "}
           </Link>
         </div>
